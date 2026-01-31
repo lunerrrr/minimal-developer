@@ -16,3 +16,8 @@ they literally only exist to "make number go up" and post fake comments. They cr
 all to create the fake sense of attention and importance in a place where everything and everyone is fake.
 
 at least data centers are honest about what they are.
+
+<video controls width="100%">
+    <source src="https://media.infosec.exchange/infosec.exchange/media_attachments/files/115/983/845/831/801/511/original/f501521dfaf54bc6.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
