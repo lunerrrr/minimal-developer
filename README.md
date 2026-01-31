@@ -13,16 +13,6 @@ Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deploy
 3. Use `npm run build` as the build command and `_site` as the build output directory.
 4. After the first build completes, enable automatic deployments from the selected branch so every push publishes a new version.
 
-### GitHub Actions deployment
-
-This repo includes `.github/workflows/deploy.yml`, which builds the site with Eleventy and deploys it to Cloudflare Pages. To enable it:
-
-1. In your repository settings, add the following secrets:
-  - `CLOUDFLARE_API_TOKEN`: a token with *Cloudflare Pages - Edit* permission.
-  - `CLOUDFLARE_ACCOUNT_ID`: your Cloudflare account ID.
-  - `CLOUDFLARE_PROJECT_NAME`: the Cloudflare Pages project slug.
-2. Push to the `main` branch (or run the workflow manually) and the action will build `npm run build` then publish `_site` via `cloudflare/pages-action`.
-
 ### Local Cloudflare preview (optional)
 
 Install Wrangler (`npm install -g wrangler`) and use it to emulate the production build locally:
