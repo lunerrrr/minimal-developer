@@ -1,10 +1,10 @@
 ---
 layout: layouts/home.njk
 ---
-<p>This is where you write a quick intro about yourself or the blog or both.</p>
-<h2>Recent Posts</h2>
+<p>hello!!! i'm thea/luna. i'm a trans woman thats really into cubing, coding, reading and electronics.</p>
+<h2>recent posts</h2>
 {% set maxPosts = collections.posts.length | min(3) %}
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>more posts can be found in <a href="{{ '/posts/' | url }}">the vault</a>.</p>

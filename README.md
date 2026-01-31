@@ -2,13 +2,36 @@
 
 A very minimal developer blog theme using Eleventy (11ty).
 
-## Demo
-
-- [Netlify](https://eleventy-minimal-developer.netlify.app/)
-
 ## Deploy this to your own site
 
 Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/).
+
+## Deploy to Cloudflare Pages
+
+1. Push this repository to a version control provider that Cloudflare Pages supports (GitHub, GitLab, or Bitbucket).
+2. Create a new Pages project in the Cloudflare dashboard and connect it to your repository.
+3. Use `npm run build` as the build command and `_site` as the build output directory.
+4. After the first build completes, enable automatic deployments from the selected branch so every push publishes a new version.
+
+### GitHub Actions deployment
+
+This repo includes `.github/workflows/deploy.yml`, which builds the site with Eleventy and deploys it to Cloudflare Pages. To enable it:
+
+1. In your repository settings, add the following secrets:
+  - `CLOUDFLARE_API_TOKEN`: a token with *Cloudflare Pages - Edit* permission.
+  - `CLOUDFLARE_ACCOUNT_ID`: your Cloudflare account ID.
+  - `CLOUDFLARE_PROJECT_NAME`: the Cloudflare Pages project slug.
+2. Push to the `main` branch (or run the workflow manually) and the action will build `npm run build` then publish `_site` via `cloudflare/pages-action`.
+
+### Local Cloudflare preview (optional)
+
+Install Wrangler (`npm install -g wrangler`) and use it to emulate the production build locally:
+
+```
+wrangler pages dev
+```
+
+Wrangler reads `wrangler.toml` to find the `_site` output directory so the preview matches the Cloudflare Pages environment.
 
 ## Getting Started
 
@@ -35,6 +58,10 @@ npm install
 ```
 
 ### 4. Edit \_data/metadata.json
+
+### 5. Configure the guestbook (optional)
+
+Update the URL in `_data/guestbook.json` to match your Atabook handle so the embedded guestbook loads the correct board.
 
 ### 5. Run Eleventy
 

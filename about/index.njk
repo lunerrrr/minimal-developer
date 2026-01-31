@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: About Me
+templateClass: tmpl-post
+---
+<h1>about me!!!!!</h1>
+<h2>who am i?</h2>
+<p>well, hello there! i am thea/luna. i'm a trans woman with a passion for old tech, accessibility, coding, electronics, physics and more (i have a lot of hobbies)</p>
+<p>For more up-to-date details check out the now page.</p>
+
+<h2>interests</h2>
+<ul>
+    <li>cubing</li>
+    <li>reading</li>
+    <li>computers</li>
+    <li>accessibility</li>
+    <li>coding</li>
+    <li>electronics</li>
+    <li>physics</li>
+    <li>old tech</li>
+</ul>
+
+{% if buttons and buttons | length %}
+  <h2>buttons!</h2>
+  <p>Here are the button graphics featured around the site.</p>
+  <div class="buttons-grid">
+    {% for group in buttons %}
+    <div class="button-group" role="list" aria-label="{{ group.sizeLabel }} buttons">
+      {% for button in group.items %}
+      <img src="{{ button.url }}" alt="{{ button.alt }}" width="{{ button.width }}" height="{{ button.height }}" role="listitem">
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+{% endif %}

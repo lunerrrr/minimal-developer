@@ -20,10 +20,23 @@
     <meta property="twitter:description" content="{{ description or metadata.description }}">
   </head>
   <body>
-    <header>
-      {%- for entry in metadata.nav %}
-        <span class="{% if entry.url == page.url %} active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a>{% if not loop.last %} - {% endif %}</span>
-      {%- endfor %}
+    <header class="site-nav">
+      {% set navCount = metadata.nav | length %}
+      {% set midpoint = (navCount / 2) | round(0, 'ceil') %}
+      <div class="nav-line">
+        {% for entry in metadata.nav %}
+          {% if loop.index <= midpoint %}
+            <a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="nav-line">
+        {% for entry in metadata.nav %}
+          {% if loop.index > midpoint %}
+            <a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>

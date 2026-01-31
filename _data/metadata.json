@@ -1,47 +1,76 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Thea/Luna's awesome blog",
+  "url": "https://moonmedia.cc/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "hello!!! i'm thea/luna. i'm a trans woman thats really into cubing, coding, reading and electronics.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "hello!!! i'm thea/luna. i'm a trans woman thats really into cubing, coding, reading and electronics.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://moonmedia.cc/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://moonmedia.cc/feed/feed.json"
   },
   "author": {
     "name": "Your Name Here",
     "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://moonmedia.cc/about-me/"
   },
   "nav": [{
-    "title": "home",
+    "title": "[home]",
     "url": "/"
   },
   {
-    "title": "posts",
+    "title": "[posts]",
     "url": "/posts"
   },
   {
-    "title": "about",
+    "title": "[about]",
     "url": "/about"
   },
   {
-    "title": "contact",
+    "title": "[contact]",
     "url": "/contact"
   },
   {
-    "title": "rss",
+    "title": "[guestbook]",
+    "url": "/guestbook"
+  },
+  {
+    "title": "[rss]",
     "url": "/feed/feed.xml"
   },
   {
-    "title": "search",
+    "title": "[search]",
     "url": "/search"
-  }],
+  },
+  {
+    "title": "[ai]",
+    "url": "/ai"
+  },
+  {
+    "title": "[log]",
+    "url": "/log"
+  },
+  {
+    "title": "[gal]",
+    "url": "https://en.pronouns.page/@lunathecat"
+  },
+  {
+    "title": "[ideas]",
+    "url": "/ideas"
+  },
+  {
+    "title": "[now]",
+    "url": "/now"
+  },
+  {
+    "title": "[music]",
+    "url": "/music"
+  }
+  ],
   "config": {
     "showDateList": true,
     "showDatePost": true
