@@ -14,9 +14,9 @@
     "url": "https://moonmedia.cc/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://moonmedia.cc/about-me/"
+    "name": "Thea",
+    "email": "administrator@moonmedia.cc",
+    "url": "https://moonmedia.cc/about/"
   },
   "nav": [{
     "title": "[home]",
@@ -69,6 +69,10 @@
   {
     "title": "[music]",
     "url": "/music"
+  },
+  {
+    "title": "[minecraft]",
+    "url": "/minecraft"
   }
   ],
   "config": {
