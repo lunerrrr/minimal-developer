@@ -1,10 +1,10 @@
 {
-  "title": "Thea/Luna's awesome blog",
+  "title": "Thea's awesome blog",
   "url": "https://moonmedia.cc/",
   "language": "en",
-  "description": "hello!!! i'm thea/luna. i'm a trans woman thats really into cubing, coding, reading and electronics.",
+  "description": "hello!!! i'm thea. i'm really into cubing, coding, reading and electronics.",
   "feed": {
-    "subtitle": "hello!!! i'm thea/luna. i'm a trans woman thats really into cubing, coding, reading and electronics.",
+    "subtitle": "hello!!! i'm thea. i'm really into cubing, coding, reading and electronics.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://moonmedia.cc/"
