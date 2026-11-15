@@ -4,7 +4,7 @@ templateClass: tmpl-post
 title: Consilismul
 tags:
     - romanian
-date: 2026-06-12
+date: 2026-07-18
 ---
 Imaginează-ți o societate în care deciziile economice nu sunt luate de proprietarii companiilor, de politicieni sau de conducerea unui partid, ci de oamenii care muncesc efectiv. O societate în care angajații își organizează locurile de muncă, comunitățile își administrează resursele, iar reprezentanții sunt aleși direct, pot fi revocați și nu formează o clasă politică permanentă.
 
