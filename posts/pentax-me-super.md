@@ -15,8 +15,11 @@ Un exemplu foarte bun este Pentax ME Super, un aparat care combină o construcț
 
 ## 1. Istoric și poziționare
 
-![Pentax ME Super - vedere frontală](https://copyparty.moonmedia.cc/media/pentax_me_super.jpg)
-*Pentax ME Super cu un Auto Revuenon 50mm f/1.7. fotografiat de mine*
+<img src="https://copyparty.moonmedia.cc/media/pentax_me_super.jpg"
+     alt="Pentax ME Super - vedere frontală"
+     width="600">
+
+*Pentax ME Super cu un Auto Revuenon 50mm f/1.7. Fotografiat de mine.*
 Lansat în 1980 de compania japoneză Asahi Optical Co., Pentax ME Super face parte din seria M, o familie de aparate SLR proiectate pentru a fi mai compacte și mai ușoare decît generațiile anterioare.
 
 Modelul a fost dezvoltat pornind de la Pentax ME, un aparat care utiliza prioritatea de diafragmă ca principal mod de expunere.
